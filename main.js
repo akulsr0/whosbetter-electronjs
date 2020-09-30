@@ -8,7 +8,7 @@ let mainWindow;
 app.on('ready', function(){
     mainWindow = new BrowserWindow({
         width: 800,
-        height: 630,
+        height: 620,
     })
     mainWindow.setTitle("Who's Better")
     mainWindow.loadURL(url.format({
